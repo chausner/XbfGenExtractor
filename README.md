@@ -1,6 +1,9 @@
 # XbfGenExtractor
 Utility to extract type information from XbfGen.dll for usage in [XbfAnalyzer](https://github.com/chausner/XbfAnalyzer).
 
+> [!NOTE]
+> This program has been moved to https://github.com/chausner/XbfTools/.
+
 ## Usage
 To extract types from a newer version of XbfGen.dll, add another call to `Extract` in the `Main` method. 
 The necessary offsets and counts have to be determined manually, e.g. by loading the DLL into a debugger and using debug symbols from the Microsoft Symbol Server to locate them.
